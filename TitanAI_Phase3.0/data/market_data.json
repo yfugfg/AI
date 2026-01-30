@@ -1,0 +1,69 @@
+{
+  "timestamp": "2026-01-30T12:00:00Z",
+  "indices": {
+    "sp500": 5200.50,
+    "nasdaq": 18500.75,
+    "dowjones": 39200.25,
+    "nikkei": 39500.00,
+    "dax": 18200.50,
+    "ftse100": 8300.25
+  },
+  "sectors": {
+    "technology": 125.75,
+    "financials": 85.25,
+    "healthcare": 110.50,
+    "consumer_staples": 75.25,
+    "consumer_discretionary": 95.75,
+    "energy": 65.50,
+    "industrials": 80.25,
+    "materials": 70.50,
+    "utilities": 60.25,
+    "real_estate": 55.75,
+    "communication_services": 90.50
+  },
+  "commodities": {
+    "gold": 2200.50,
+    "silver": 26.75,
+    "crude_oil": 78.25,
+    "natural_gas": 2.85,
+    "copper": 4.25
+  },
+  "currencies": {
+    "eur_usd": 1.1250,
+    "usd_jpy": 149.50,
+    "gbp_usd": 1.2850,
+    "usd_cny": 7.1500,
+    "usd_chf": 0.8750
+  },
+  "cryptocurrencies": {
+    "bitcoin": 48500.00,
+    "ethereum": 2750.00,
+    "binance_coin": 320.00,
+    "solana": 120.00,
+    "cardano": 0.65
+  },
+  "volatility": {
+    "vix": 18.50,
+    "vxn": 22.75,
+    "vxj": 20.25
+  },
+  "market_sentiment": {
+    "put_call_ratio": 0.85,
+    "fear_greed_index": 65,
+    "bullish_percent": 62,
+    "bearish_percent": 25,
+    "neutral_percent": 13
+  },
+  "liquidity": {
+    "bid_ask_spread": 0.015,
+    "trading_volume": 4500000000,
+    "market_depth": 120000000
+  },
+  "technical_indicators": {
+    "sp500_moving_average": "bullish crossover",
+    "nasdaq_momentum": "strong",
+    "dowjones_rsi": 68,
+    "market_breadth": 1.2,
+    "advance_decline_line": "rising"
+  }
+}
