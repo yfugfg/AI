@@ -1,0 +1,128 @@
+{
+  "timestamp": "2026-01-30T12:00:00Z",
+  "united_states": {
+    "gdp_growth": 2.5,
+    "inflation": 2.8,
+    "unemployment_rate": 3.7,
+    "interest_rate": 4.75,
+    "consumer_spending": 5.2,
+    "industrial_production": 3.1,
+    "housing_starts": 1.45,
+    "retail_sales": 4.8,
+    "manufacturing_pmi": 52.5,
+    "services_pmi": 54.8
+  },
+  "eurozone": {
+    "gdp_growth": 1.8,
+    "inflation": 3.2,
+    "unemployment_rate": 6.5,
+    "interest_rate": 4.25,
+    "consumer_spending": 3.5,
+    "industrial_production": 2.1,
+    "manufacturing_pmi": 50.8,
+    "services_pmi": 53.2
+  },
+  "japan": {
+    "gdp_growth": 2.2,
+    "inflation": 2.5,
+    "unemployment_rate": 2.4,
+    "interest_rate": 0.1,
+    "consumer_spending": 2.8,
+    "industrial_production": 2.5,
+    "manufacturing_pmi": 51.2,
+    "services_pmi": 53.5
+  },
+  "china": {
+    "gdp_growth": 5.8,
+    "inflation": 2.1,
+    "unemployment_rate": 5.2,
+    "interest_rate": 3.45,
+    "consumer_spending": 6.5,
+    "industrial_production": 4.8,
+    "manufacturing_pmi": 51.8,
+    "services_pmi": 54.5
+  },
+  "united_kingdom": {
+    "gdp_growth": 1.5,
+    "inflation": 3.5,
+    "unemployment_rate": 4.2,
+    "interest_rate": 4.5,
+    "consumer_spending": 3.1,
+    "industrial_production": 1.8,
+    "manufacturing_pmi": 49.8,
+    "services_pmi": 52.5
+  },
+  "global_economy": {
+    "world_gdp_growth": 3.1,
+    "global_inflation": 3.2,
+    "global_trade_growth": 4.5,
+    "commodity_price_index": 115.5,
+    "global_manufacturing_pmi": 51.2,
+    "global_services_pmi": 53.8
+  },
+  "central_banks": {
+    "fed": {
+      "interest_rate": 4.75,
+      "balance_sheet": 8900000000000,
+      "policy_stance": "neutral",
+      "next_meeting": "2026-02-14",
+      "rate_cut_probability": 65
+    },
+    "ecb": {
+      "interest_rate": 4.25,
+      "balance_sheet": 7800000000000,
+      "policy_stance": "neutral",
+      "next_meeting": "2026-02-07",
+      "rate_cut_probability": 55
+    },
+    "boj": {
+      "interest_rate": 0.1,
+      "balance_sheet": 6200000000000,
+      "policy_stance": "accommodative",
+      "next_meeting": "2026-02-21",
+      "rate_hike_probability": 25
+    },
+    "pboc": {
+      "interest_rate": 3.45,
+      "balance_sheet": 5500000000000,
+      "policy_stance": "accommodative",
+      "next_meeting": "2026-02-10",
+      "policy_easing_probability": 45
+    }
+  },
+  "credit_markets": {
+    "us_treasury_yields": {
+      "2_year": 4.65,
+      "5_year": 4.25,
+      "10_year": 4.05,
+      "30_year": 4.20
+    },
+    "corporate_bond_spreads": {
+      "investment_grade": 125,
+      "high_yield": 425,
+      "emerging_market": 375
+    },
+    "credit_default_swaps": {
+      "us_government": 15,
+      "eurozone": 25,
+      "japan": 20,
+      "china": 65,
+      "emerging_markets": 125
+    }
+  },
+  "economic_indicators": {
+    "leading_indicators": 105.5,
+    "coincident_indicators": 102.5,
+    "lagging_indicators": 98.5,
+    "consumer_confidence": 108.5,
+    "business_confidence": 105.2,
+    "investor_sentiment": 112.5
+  },
+  "geopolitical_factors": {
+    "geopolitical_risk_index": 155.5,
+    "trade_tensions": "moderate",
+    "energy_security": "stable",
+    "supply_chain_disruptions": "low",
+    "regional_conflicts": "moderate"
+  }
+}

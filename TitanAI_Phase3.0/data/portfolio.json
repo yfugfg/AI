@@ -1,0 +1,217 @@
+{
+  "portfolio": {
+    "name": "Global Balanced Portfolio",
+    "creation_date": "2025-01-30",
+    "last_updated": "2026-01-30",
+    "total_value": 1000000,
+    "currency": "USD",
+    "risk_profile": "moderate",
+    "time_horizon": "medium-term",
+    "investment_goals": [
+      "capital appreciation",
+      "income generation",
+      "capital preservation"
+    ]
+  },
+  "holdings": {
+    "equities": {
+      "domestic": {
+        "technology": {
+          "apple": {
+            "symbol": "AAPL",
+            "shares": 50,
+            "purchase_price": 185.50,
+            "current_price": 195.25,
+            "value": 9762.50,
+            "weight": 0.0976
+          },
+          "microsoft": {
+            "symbol": "MSFT",
+            "shares": 30,
+            "purchase_price": 325.75,
+            "current_price": 345.50,
+            "value": 10365.00,
+            "weight": 0.1037
+          },
+          "nvidia": {
+            "symbol": "NVDA",
+            "shares": 10,
+            "purchase_price": 485.25,
+            "current_price": 525.75,
+            "value": 5257.50,
+            "weight": 0.0526
+          },
+          "alphabet": {
+            "symbol": "GOOGL",
+            "shares": 20,
+            "purchase_price": 135.25,
+            "current_price": 145.75,
+            "value": 2915.00,
+            "weight": 0.0292
+          },
+          "amazon": {
+            "symbol": "AMZN",
+            "shares": 15,
+            "purchase_price": 155.75,
+            "current_price": 165.25,
+            "value": 2478.75,
+            "weight": 0.0248
+          }
+        },
+        "financials": {
+          "jpmorgan": {
+            "symbol": "JPM",
+            "shares": 40,
+            "purchase_price": 175.25,
+            "current_price": 185.50,
+            "value": 7420.00,
+            "weight": 0.0742
+          },
+          "bank_of_america": {
+            "symbol": "BAC",
+            "shares": 100,
+            "purchase_price": 32.50,
+            "current_price": 35.25,
+            "value": 3525.00,
+            "weight": 0.0353
+          }
+        },
+        "healthcare": {
+          "johnson_johnson": {
+            "symbol": "JNJ",
+            "shares": 50,
+            "purchase_price": 145.25,
+            "current_price": 155.75,
+            "value": 7787.50,
+            "weight": 0.0779
+          },
+          "pfizer": {
+            "symbol": "PFE",
+            "shares": 80,
+            "purchase_price": 35.25,
+            "current_price": 38.75,
+            "value": 3100.00,
+            "weight": 0.0310
+          }
+        }
+      },
+      "international": {
+        "nestle": {
+          "symbol": "NSRGY",
+          "shares": 60,
+          "purchase_price": 85.25,
+          "current_price": 90.75,
+          "value": 5445.00,
+          "weight": 0.0545
+        },
+        "samsung": {
+          "symbol": "005930.KS",
+          "shares": 200,
+          "purchase_price": 75.25,
+          "current_price": 80.50,
+          "value": 16100.00,
+          "weight": 0.1610
+        },
+        "tencent": {
+          "symbol": "0700.HK",
+          "shares": 50,
+          "purchase_price": 425.25,
+          "current_price": 455.75,
+          "value": 22787.50,
+          "weight": 0.2279
+        }
+      }
+    },
+    "fixed_income": {
+      "us_treasuries": {
+        "2_year_treasury": {
+          "par_value": 5000,
+          "current_value": 4950,
+          "yield": 4.65,
+          "weight": 0.0495
+        },
+        "10_year_treasury": {
+          "par_value": 8000,
+          "current_value": 7850,
+          "yield": 4.05,
+          "weight": 0.0785
+        }
+      },
+      "corporate_bonds": {
+        "investment_grade": {
+          "par_value": 6000,
+          "current_value": 5950,
+          "yield": 5.25,
+          "weight": 0.0595
+        },
+        "high_yield": {
+          "par_value": 4000,
+          "current_value": 3850,
+          "yield": 7.75,
+          "weight": 0.0385
+        }
+      }
+    },
+    "cash": {
+      "us_dollars": {
+        "amount": 5000,
+        "weight": 0.0500
+      }
+    }
+  },
+  "allocation": {
+    "equities": {
+      "domestic": 0.50,
+      "international": 0.20
+    },
+    "fixed_income": 0.25,
+    "cash": 0.05
+  },
+  "performance": {
+    "total_return": 0.085,
+    "annualized_return": 0.105,
+    "benchmark_return": 0.072,
+    "alpha": 0.033,
+    "beta": 0.95,
+    "sharpe_ratio": 1.25,
+    "sortino_ratio": 1.45,
+    "max_drawdown": 0.125,
+    "volatility": 0.155
+  },
+  "risk_metrics": {
+    "portfolio_beta": 0.95,
+    "portfolio_volatility": 0.155,
+    "value_at_risk": -0.085,
+    "conditional_value_at_risk": -0.125,
+    "tracking_error": 0.045,
+    "information_ratio": 0.73
+  },
+  "transactions": {
+    "recent": [
+      {
+        "date": "2026-01-25",
+        "symbol": "NVDA",
+        "action": "buy",
+        "shares": 5,
+        "price": 515.25,
+        "value": 2576.25
+      },
+      {
+        "date": "2026-01-20",
+        "symbol": "MSFT",
+        "action": "sell",
+        "shares": 10,
+        "price": 340.50,
+        "value": 3405.00
+      },
+      {
+        "date": "2026-01-15",
+        "symbol": "GOOGL",
+        "action": "buy",
+        "shares": 10,
+        "price": 140.25,
+        "value": 1402.50
+      }
+    ]
+  }
+}
